@@ -11107,4 +11107,65 @@ footer.footer .social-link:hover {
   line-height: 7.5rem;
   font-size: 2.25rem;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}/* General button styles */
+.btn {
+  font-family: 'Source Sans Pro', sans-serif;
+  border-radius: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #0066cc;
+  border: none;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #005bb5;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.btn-xl {
+  padding: 15px 30px;
+  font-size: 1.25rem;
+}
+
+/* Styles for the contact button */
+#contact-form button {
+  background-color: #004a99;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+}
+
+#contact-form button:hover {
+  background-color: #003d82;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+.footer {
+  padding: 20px 0;
+}
+
+.social-icons {
+  font-size: 1.5rem;
+}
+
+.social-icon {
+  color: #ffffff;
+  transition: color 0.3s;
+  text-decoration: none;
+}
+
+.social-icon:hover {
+  color: #a3d2ff; /* Cambia este color para el efecto hover */
+}
+.inspirational-quote {
+  font-size: 1.2rem;
+  font-style: italic;
+  font-weight: 300;
+  color: #e8f1ff; /* Azul claro para resaltar */
 }
